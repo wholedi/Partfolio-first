@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header__container {
+    display: flex;
+    padding-top: 40px;
+}
+
+.header__nav {
+    margin: 0 50px 0 auto;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 58px;
+}
+
+.header__nav-item {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+
+.welcome__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 220px;
+}
+
+.welcome__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #42446E;
+}
+
+.welcome__text span {
+    background: linear-gradient(90deg, #13B0F5 50%, #E70FAA 150%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tech__container{
+    margin-top: 290px;
+}
+
+.tech__container h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    color: #42446E;
+    text-align: center;
+}
+
+.tech__container p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #666666;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tech__img{
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px 100px;
+}
