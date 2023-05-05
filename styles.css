@@ -95,6 +95,7 @@ main {
     align-items: center;
     justify-content: space-between;
     margin-top: 220px;
+    padding-top: 90px;
 }
 
 .welcome__text {
@@ -104,6 +105,7 @@ main {
     line-height: 70px;
     letter-spacing: -1px;
     color: #42446E;
+
 }
 
 .welcome__text span {
@@ -123,6 +125,7 @@ main {
     line-height: 1;
     color: #42446E;
     text-align: center;
+
 }
 
 .tech__container p{
@@ -141,6 +144,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 70px 100px;
+    margin-bottom: 200px;
 }
 
 .projects__text{
@@ -154,7 +158,7 @@ main {
     margin-top: 50px;
 }
 
-.projects__text__p{
+.projects__text_p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -176,6 +180,8 @@ main {
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
+    padding-top: 20px;
+
 }
 
 .projects__list{
@@ -183,7 +189,7 @@ main {
     overflow: hidden;
 }
 
-.projects__list__p{
+.projects__list_p{
     width: 314px;
     height: 130px;
     left: 1066px;
@@ -196,7 +202,7 @@ main {
     color: #666666;
     margin: 30px;
 }
-.projects__text__block{
+.projects__text_block{
     background: #FFFFFF;
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
 
@@ -210,3 +216,68 @@ main {
     height: 26px;
 }
 
+.projects__link{
+    display: flex;
+    gap:20px;
+    padding: 35px;
+
+}
+.link{
+    text-decoration: underline;
+}
+
+.projects__link a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contacts__container_questions{
+    height: 70px;
+    left: 22.19%;
+    right: 22.19%;
+    top: calc(50% - 70px/2 - 116px);
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #1E0E62;
+    margin:400px 150px 40px 150px;
+}
+
+.hi{
+    font-family: 'DM Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    padding: 1px 400px 450px 400px;
+
+}
+
+.logo__contacts{
+
+
+}
+hr{
+    position: absolute;
+    width: 1209px;
+    height: 5px;
+
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    /* dark content */
+
+    border: 2px solid #666666;
+}
