@@ -113,11 +113,12 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.tech__container{
+
+.tech__container {
     margin-top: 290px;
 }
 
-.tech__container h2{
+.tech__container h2 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -128,7 +129,7 @@ main {
 
 }
 
-.tech__container p{
+.tech__container p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -139,7 +140,7 @@ main {
     margin-top: 80px;
 }
 
-.tech__img{
+.tech__img {
     margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +148,7 @@ main {
     margin-bottom: 200px;
 }
 
-.projects__text{
+.projects__text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -158,7 +159,7 @@ main {
     margin-top: 50px;
 }
 
-.projects__text_p{
+.projects__text_p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -168,13 +169,15 @@ main {
     text-align: center;
     margin: 50px;
 }
-.block__projects{
-   display: flex;
+
+.block__projects {
+    display: flex;
     flex-wrap: wrap;
     gap: 30px;
 
 }
-.block__projects h3{
+
+.block__projects h3 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -184,12 +187,12 @@ main {
 
 }
 
-.projects__list{
+.projects__list {
     border-radius: 20px;
     overflow: hidden;
 }
 
-.projects__list_p{
+.projects__list_p {
     width: 314px;
     height: 130px;
     left: 1066px;
@@ -202,13 +205,15 @@ main {
     color: #666666;
     margin: 30px;
 }
-.projects__text_block{
+
+.projects__text_block {
     background: #FFFFFF;
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
 
 
 }
-.list__p{
+
+.list__p {
     margin: 12px 20px;
     font-family: 'Poppins', sans-serif;
     color: #42446E;
@@ -216,17 +221,18 @@ main {
     height: 26px;
 }
 
-.projects__link{
+.projects__link {
     display: flex;
-    gap:20px;
+    gap: 20px;
     padding: 35px;
 
 }
-.link{
+
+.link {
     text-decoration: underline;
 }
 
-.projects__link a{
+.projects__link a {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -234,12 +240,12 @@ main {
     line-height: 26px;
 }
 
-.contacts__container_questions{
+.contacts__container_questions {
     height: 70px;
     left: 22.19%;
     right: 22.19%;
-    top: calc(50% - 70px/2 - 116px);
-    font-family: 'DM Sans',sans-serif;
+    top: calc(50% - 70px / 2 - 116px);
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 58px;
@@ -247,11 +253,11 @@ main {
     text-align: center;
     letter-spacing: -1px;
     color: #1E0E62;
-    margin:400px 150px 40px 150px;
+    margin: 400px 150px 40px 150px;
 }
 
-.hi{
-    font-family: 'DM Sans',sans-serif;
+.hi {
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 58px;
@@ -266,18 +272,58 @@ main {
 
 }
 
-.logo__contacts{
+.logo__contacts {
 
 
 }
-hr{
-    position: absolute;
-    width: 1209px;
-    height: 5px;
 
-    mix-blend-mode: normal;
-    opacity: 0.3;
-    /* dark content */
+hr {
+    color: #666666;
+    margin-top: 50px;
+}
 
-    border: 2px solid #666666;
+.logo__contacts {
+    margin-top: 300px;
+    margin-bottom: 1px;
+
+}
+
+.footer__nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__number {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #666666;
+
+}
+
+.contacts__container p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    gap: 5px;
+    color: #666666;
+}
+
+
+span {
+
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
